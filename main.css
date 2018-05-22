@@ -14,7 +14,10 @@
 ----------------------------------------*/
 
 body {
-
+  color: #212121;
+  font-family: 'Lato', 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -32,7 +35,14 @@ p {
 }
 
 a {
+    color: #ff4081;
+    transition: 0.2s ease-in-out;
+}
 
+a:active,
+a:hover,
+a:focus {
+  color: #212121;
 }
 
 /*--------------------------------------
@@ -60,8 +70,8 @@ a {
 ----------------------------------------*/
 
 .gedolim-story{
-    border-bottom: 1px solid #fafbfc;
-    margin-bottom: 20px;
+    border-bottom: 1px solid #628eb9;
+    margin-bottom: 10px;
     padding-bottom: 20px; 
 }
 .story-link {
