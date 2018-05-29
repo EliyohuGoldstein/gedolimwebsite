@@ -7,7 +7,7 @@ $(document).ready(function() {
       event.preventDefault();
   
       $(this).text('Liked!')
-       .closest('.news-item')
+       .closest('.gedolim-story')
        .addClass('is-liked');
     });
   
