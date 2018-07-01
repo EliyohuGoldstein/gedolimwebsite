@@ -51,7 +51,7 @@ a:focus {
 
 .hero { 
     background-color:#24292e;
-    color: #3f4448;
+    color: #6c767d;
     margin-bottom: 40px;
     padding: 10px 0;
     text-align: center;
@@ -63,6 +63,35 @@ a:focus {
     text-transform: uppercase;
 }
 
+/*-----------------------------------------------
+*   Navigation Bar
+-----------------------------------------------*/
+.navigation {
+  background-color:#24292e;
+  color:#6c767d;
+}
+
+.navigation li {
+  float: left;
+ 
+}
+
+.navigation li a {
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  color: #6c767d;
+  font-weight: 600;
+}
+
+.navigation li a:hover:not(.active) {
+  background-color: rgb(78, 64, 64);
+}
+
+.navigation .active {
+  background-color: #4CAF50;
+}
 /*--------------------------------------
 *    Stories
 ----------------------------------------*/
@@ -208,3 +237,26 @@ a:focus {
       opacity: 1;
     }
   }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+ 
+}
+
+
+/*-----------------------------------------------
+*   Gedolim Pages
+-----------------------------------------------*/
+.feinstein-img, .weissmandl-img, .chofetzchaim-img, .vilnagoan-img, .grodzenky-img, .spira-img {
+  text-align: center;
+}
+h2 {
+  text-align: center;
+  font-size: 28px;
+  font-weight: 600;
+  text-decoration: underline;
+}
+
